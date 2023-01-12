@@ -1,0 +1,33 @@
+.card {
+    width: 325px;
+    border: 2px solid #f0f0f0;
+    border-radius: 6px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .card-image {
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        .image {
+            height: 200px;
+        }
+    }
+    .card-data {
+        margin-left: 20px;
+    }
+    .card-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #f0f0f0;
+        height: 50px;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .card {
+        width: 100%;
+    }
+}

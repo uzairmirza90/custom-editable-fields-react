@@ -1,0 +1,37 @@
+{
+  "name": "Users",
+  "short_name": "Users",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "maskable.png",
+      "sizes": "225x225",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo192.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo256.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo384.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
